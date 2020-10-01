@@ -13,5 +13,11 @@
     },
     "require-dev": {
         "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DanieXl\\": "./src",
+            "DanieXl\\SimpleRouter\\Example\\": "./example"
+        }
     }
 }
