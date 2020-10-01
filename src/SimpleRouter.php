@@ -132,7 +132,8 @@ class SimpleRouter
     }
 
     /**
-     * Matches $routes||$this->routes on PATH_INFO
+     * Matches $routes|$this->routes on PATH_INFO
+     *
      * @param array $routes
      * @return array
      * @throws Exception
@@ -242,7 +243,6 @@ class SimpleRouter
      */
     public function match(): Response
     {
-        dd($this->routes);
         $validMethods = [];
         $requestedMethod = $this->request->getMethod();
         foreach ($this->matchRoutesOnPath() as $route) {
