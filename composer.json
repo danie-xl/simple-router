@@ -1,10 +1,13 @@
 {
     "name": "danie-xl/simple-router",
     "description": "Simple Router written in PHP",
+    "keywords": ["router", "simple", "php", "simple-router", "danie-xl", "DanieXl"],
+    "homepage": "https://github.com/danie-xl/clean-router",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
-            "name": "danie-xl",
+            "name": "Daniel Ravenshorst",
             "email": "dev@daniexl.com"
         }
     ],
