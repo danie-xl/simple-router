@@ -1,0 +1,23 @@
+{
+    "name": "danie-xl/simple-router",
+    "description": "Simple Router written in PHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "danie-xl",
+            "email": "dev@daniexl.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^5.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DanieXl\\": "./src",
+            "DanieXl\\SimpleRouter\\Example\\": "./example"
+        }
+    }
+}
